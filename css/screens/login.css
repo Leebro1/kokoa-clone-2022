@@ -39,14 +39,19 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: rgba(0, 0, 0, 0.8);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: rgba(0, 0, 0, 0.07);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+}
+
+.login__submit:hover {
+  background-color: #fae100;
+  transition: background-color 0.3 ease-in-out;
 }
 
 #login-form a {

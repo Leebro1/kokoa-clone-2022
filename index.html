@@ -14,7 +14,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>11:15</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -24,10 +24,7 @@
     </div>
 
     <header class="Welcome-header">
-      <h1 class="Welcome-header__title">Welcome to KakaoTalk</h1>
-      <p class="Welcome-header__text">
-        If you have a Kakao Account, log in with your email or phone number.
-      </p>
+      <h1 class="Welcome-header__title">카카오톡을 시작합니다</h1>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
@@ -35,11 +32,16 @@
         name="username"
         type="text"
         required
-        placeholder="Email or Phone number"
+        placeholder="이메일 또는 전화번호"
       />
-      <input name="password" type="password" required placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kakao Account or Password</a>
+      <input name="password" type="password" required placeholder="비밀번호" />
+      <input type="submit" class="login__submit" value="로그인" />
+      <input
+        type="submit"
+        class="login__submit"
+        value="새로운 카카오계정 만들기"
+      />
+      <a href="#">카카오계정 또는 비밀번호 찾기</a>
     </form>
     <div id="no-mobile">
       <span> Your screen is too big</span>
